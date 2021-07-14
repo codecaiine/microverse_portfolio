@@ -5,11 +5,13 @@ The goal of this project is to learn how parse a Figma design to create a UI, an
 
 
 
-- Screenshoot 
+- Screenshoot 1
 
-![screenshot](./ScreeM.PNG)
+![screenshot](./portfolio-mobile.PNG)
 
 
+- Screenshoot 2
+![screenshot](./portfolio-web.PNG)
 
 - set up a new repository and prepare it for development using best practices.
 - build mobile website.
@@ -42,8 +44,9 @@ Run the command below from the Terminal:
 
 ## Authors
 
-👤 **Yannick-Noel AKA**
+👤 **Author**
 
+- Fullname: Yannick-Noel AKA
 - Location: Côte d'Ivoire
 - GitHub: [@codecaiine](https://github.com/codecaiine)
 - Twitter: [@yannicknaka](https://twitter.com/yannicknaka)
