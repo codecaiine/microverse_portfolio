@@ -39,9 +39,9 @@ To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
 
-          git clone <URL> in your terminal
+      git clone <URL> in your terminal
 
-	  cd microverse-portfolio
+	  cd microverse_portfolio
 
 	  start index.html
 
@@ -49,9 +49,8 @@ Run the command below from the Terminal:
 
 ## Authors
 
-👤 **Author**
+👤 **Yannick-Noel AKA**
 
-- Fullname: Yannick-Noel AKA
 - Location: Côte d'Ivoire
 - GitHub: [@codecaiine](https://github.com/codecaiine)
 - Twitter: [@yannicknaka](https://twitter.com/yannicknaka)

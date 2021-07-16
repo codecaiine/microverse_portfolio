@@ -175,24 +175,31 @@ a.btn-connect {
   list-style-type: none;
 }
 
+.grid-container img,
+.grid-container p {
+  display: inline;
+}
+
 .grid-container > li {
   background-color: #f7f7f9;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-  width: 170px;
+  font-size: 10px;
+  width: 450px;
   border-radius: 8px;
+  padding: 30px;
 }
 
 .grid-container > li img {
   position: relative;
-  top: -12px;
-  left: -18px;
+  bottom: -12px;
+  left: -2px;
+  height: 50px;
+  width: 50px;
 }
 
 .grid-container > li p {
-  font-size: 18px;
+  font-size: 22px;
   padding-top: 8px;
+  font-weight: 400;
 }
 
 .stacks {
@@ -237,8 +244,8 @@ a.btn-connect {
 
 .grid-container {
   display: grid;
-  align-content: center;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto-fill, minmax(620px, 1fr));
+  align-items: center;
   grid-gap: 10px;
   padding: 10px;
   border: 0;
