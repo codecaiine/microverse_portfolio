@@ -167,8 +167,8 @@ a.btn-connect {
 
 .grid-container > li {
   background-color: #f7f7f9;
-  font-size: 10px;
-  width: 450px;
+  font-size: 21px;
+  width: 390px;
   border-radius: 8px;
   padding: 30px;
 }
@@ -179,12 +179,6 @@ a.btn-connect {
   left: -2px;
   height: 50px;
   width: 50px;
-}
-
-.grid-container > li p {
-  font-size: 22px;
-  padding-top: 8px;
-  font-weight: 400;
 }
 
 .stacks {
@@ -442,9 +436,34 @@ input {
     width: 1000px;
   }
 
-  .work-container > ul > li img:nth-of-type(2n) {
-    color: teal;
-    border: 1px;
+  .grid-container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    border: 0;
+    background: transparent;
+  }
+
+  .grid-container > li {
+    background-color: #f7f7f9;
+    text-align: center;
+    font-size: 30px;
+    width: 145px;
+    height: 150px;
+    border-radius: 8px;
+  }
+
+  .grid-container > li img {
+    position: relative;
+    top: -12px;
+    left: -42px;
+  }
+
+  .grid-container > li p {
+    font-size: 18px;
+    padding-top: 8px;
   }
 }
 
@@ -452,7 +471,6 @@ input {
   /* for mobile phone */
   .navbar {
     flex-direction: column;
-    background-color: tomato;
   }
 
   .nav-list {
