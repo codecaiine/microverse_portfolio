@@ -424,3 +424,85 @@ textarea {
 .contact button :active {
   color: purple;
 }
+<<<<<<< Updated upstream
+=======
+
+@media only screen and (min-width: 768px) {
+  /* Desktop version */
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 160px;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .nav-list .list-item {
+    display: inline-block;
+    padding: 10px;
+    border-top: 1px solid white;
+    color: black;
+  }
+
+  .navbar a {
+    color: #5571fe;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .work-container {
+    width: 1000px;
+  }
+
+  .work-container > ul > li img:nth-of-type(2n) {
+    color: teal;
+    border: 1px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* for mobile phone */
+  .navbar {
+    flex-direction: column;
+    background-color: tomato;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    display: none;
+  }
+
+  .nav-list .list-item {
+    display: block;
+    padding: 10px;
+    border-top: 1px solid white;
+    color: black;
+  }
+
+  .navbar a {
+    color: #5571fe;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+}
+>>>>>>> Stashed changes
