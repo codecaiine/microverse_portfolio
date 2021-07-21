@@ -466,7 +466,29 @@ input {
     padding-top: 8px;
   }
 
-  .work-section-wrapper li:nth-child(2n+1) .work-pro {
+  /* Style for Pair elements */
+  .work-section-wrapper li:nth-child(2n) .work-pro {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .work-section-wrapper li:nth-child(2n) .work-pro img {
+    background-color: transparent;
+    width: 460px;
+  }
+
+  .work-section-wrapper li:nth-child(2n) .work-pro .work-description {
+    background-color: transparent;
+  }
+
+  /* style for impair elements */
+  .work-section-wrapper li:nth-child(2n+1) .work-pro img {
+    background-color: transparent;
+    width: 460px;
+  }
+
+  .work-section-wrapper li:nth-child(2n+1) .work-pro .work-description {
     background-color: transparent;
   }
 }
