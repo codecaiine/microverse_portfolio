@@ -595,11 +595,30 @@ button[disabled] {
     top: 15px;
   }
 
+  .section-about {
+    height: 1524px;
+    position: relative;
+    bottom: -100px;
+  }
+
+  .contact {
+    position: relative;
+    left: 0;
+    height: 846px;
+    background: #6070ff;
+  }
+
+  .contact-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 400px;
+  }
+
   .contact input {
-    width: 320px;
+    width: 350px;
   }
 
   .contact textarea {
-    width: auto;
+    width: 350px;
   }
 }
