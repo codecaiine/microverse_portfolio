@@ -4,18 +4,13 @@ The project is inspired by the figma microverse template 1 (https://figma.com/)
 The goal of this project is to learn how parse a Figma design to create a UI, and use Flexbox to place elements in the page.
 
 
+![screenshot](./image/sc-deskt.PNG)
 
-- Screenshoot I
+![screenshot](./image/sc-desktop.PNG)
 
-![screenshot](./image/mob1.PNG)
+![screenshot](./image/sc-desktop1.PNG)
 
-
-- Screenshoot II
-![screenshot](./image/mob2.PNG)
-
-
-- Screenshoot III
-![screenshot](./image/mob3.PNG)
+![screenshot](./image/sc-desktop2.PNG)
 
 
 - set up a new repository and prepare it for development using best practices.
