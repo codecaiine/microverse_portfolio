@@ -73,10 +73,10 @@ body {
 }
 
 .logo {
-  height: 30px;
-  width: 100%;
-  margin-left: 10px;
-  margin-top: 10px;
+  width: 100px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #6070ff;
 }
 
 .menu-line {
@@ -436,7 +436,7 @@ button[disabled] {
 }
 
 .contact button:focus {
-  background: #2230d2;
+  background: #9395a1;
   color: white;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
@@ -445,7 +445,7 @@ button[disabled] {
   color: purple;
 }
 
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 1080px) {
   /* Desktop version */
   .navbar {
     display: flex;
@@ -558,67 +558,5 @@ button[disabled] {
   .contact-container {
     padding-left: 150px;
     padding-right: 150px;
-  }
-}
-
-@media only screen and (max-width: 769px) {
-  /* for mobile phone */
-  .navbar {
-    flex-direction: column;
-  }
-
-  .nav-list {
-    list-style-type: none;
-    width: 100%;
-    text-align: center;
-    padding-top: 15px;
-    display: none;
-  }
-
-  .nav-list .list-item {
-    display: block;
-    padding: 10px;
-    border-top: 1px solid white;
-    color: black;
-  }
-
-  .navbar a {
-    color: #5571fe;
-    text-decoration: none;
-    font-size: 20px;
-  }
-
-  .menu {
-    display: block;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-  }
-
-  .section-about {
-    height: 1524px;
-    position: relative;
-    bottom: -100px;
-  }
-
-  .contact {
-    position: relative;
-    left: 0;
-    height: 846px;
-    background: #6070ff;
-  }
-
-  .contact-container {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 400px;
-  }
-
-  .contact input {
-    width: 350px;
-  }
-
-  .contact textarea {
-    width: 350px;
   }
 }
