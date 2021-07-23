@@ -2,20 +2,20 @@
 
 The project is inspired by the figma microverse template 1 (https://figma.com/)
 For the fourth project in your portfolio website:
-We used media queries to make sure that the website displays correctly on desktop screens.
+
+- We used media queries to make sure that the website displays correctly on desktop screens.
+- We used both grid and flex box
+- Checked and fixed linters errors
+
 
 
 ![screenshot](./image/sc-deskt.PNG)
 
+
 ![screenshot](./image/sc-desktop.PNG)
 
-![screenshot](./image/sc-desktop1.PNG)
 
 ![screenshot](./image/sc-desktop2.PNG)
-
-
-- set up a new repository and prepare it for development using best practices.
-- build mobile website.
  
 
 ## Live Demo
