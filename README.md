@@ -1,7 +1,8 @@
 # Portfolio portfolio
 
 The project is inspired by the figma microverse template 1 (https://figma.com/)
-The goal of this project is to learn how parse a Figma design to create a UI, and use Flexbox to place elements in the page.
+For the fourth project in your portfolio website:
+We used media queries to make sure that the website displays correctly on desktop screens.
 
 
 ![screenshot](./image/sc-deskt.PNG)
