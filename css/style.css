@@ -376,7 +376,7 @@ a.btn-two {
 
 .contact-container {
   padding-left: 150px;
-  padding-right: 150px;
+  padding-right: 90px;
 }
 
 .contact h2 {
@@ -624,7 +624,9 @@ button[disabled] {
 
 @media only screen and (max-width: 769px) {
   /* for mobile phone */
-  html {
+  html,
+  body {
+    max-width: 100%;
     overflow-x: hidden;
   }
 
